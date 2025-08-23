@@ -1,0 +1,68 @@
+body{
+    margin: 5%;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 50%;
+    padding: 5%;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-left: 20%;
+}
+
+.titulo{
+    margin-left: 45%;
+    margin-top: -1%;
+}
+
+.formualario{
+    width: 80%;
+    margin-left: 3%;
+    padding: 7%;
+    background-color: blueviolet;
+    border: 2px #000 solid;
+    border-radius: 20px;
+}
+
+.textinho{
+    margin-left: 30%;
+    font-size: large;
+    margin-top: -1%;
+    color: rgb(80, 80, 80);
+}
+
+input{
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    margin-left: -2%;
+}
+
+.botao{
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 25%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.links{
+    display: flex;
+}
+
+.textCad{
+    font-size: small;
+    color: rgb(80, 80, 80);
+    margin-left: 8%;
+}
+
+.textSenha{
+    font-size: small;
+    color: rgb(80, 80, 80);
+    margin-left: 10%;
+}
+
