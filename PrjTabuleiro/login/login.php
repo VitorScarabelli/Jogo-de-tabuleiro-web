@@ -21,6 +21,7 @@
             <br />
 
             <button type="submit" class="botao">Entrar</button>
+            <a href="logoff.php" class="botao">Deslogar</a>
             
             <div class="links">
                 <p class="textCad">Não tem cadastro ainda? <a href="#">Clique aqui</a></p>
