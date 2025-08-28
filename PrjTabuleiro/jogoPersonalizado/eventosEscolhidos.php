@@ -1,13 +1,25 @@
 <?php
-    $eventosSelecionados = $_POST['eventos_selecionados'];
+    include('../banco/conexao.php');
+	
+    $eventosSelecionados = $_REQUEST['eventos_selecionados'] ?? [];
+    $casaEventos = [];
+    
     for($i=0; $i < count($eventosSelecionados); $i++){
-        $casas = rand(1, 50);
-        ECHO $eventosSelecionados[$i] . " - Casa: " . $casas . "<br>";
+        $casaEventos[$i] = random_int(1, 50);
     }
 
-
-    echo "<h2>Eventos selecionados:</h2><ul>";
-    foreach ($eventosSelecionados as $idEvento) {
-        echo "ID do Evento: $idEvento </br>";
+    function obterNomeEvento($pdo, $idEvento) {
+        $stmt = $pdo->prepare("SELECT nomeEvento FROM tbevento WHERE idEvento = ?");
+        $stmt->execute([$idEvento]);
+        $row = $stmt->fetch(PDO::FETCH_BOTH);
+        return $row['nomeEvento'];
     }
+
+    $arrayMap = array_map(function($idEvento, $casa) use ($pdo) {
+        $nomeEvento = obterNomeEvento($pdo, $idEvento);
+        return "Evento: " . $nomeEvento . " - Casa: " . $casa . "<br/>";
+    }, $eventosSelecionados, $casaEventos);
+
+    echo implode($arrayMap);
+    
 ?>

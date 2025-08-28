@@ -2,11 +2,11 @@
     session_start();
     include('../banco/conexao.php');
 
-    //variaveis recuperadas
+    //variaveis recuperadas lá do from
     $email = $_REQUEST['email'];
     $senha = $_REQUEST['senha'];
 
-    //variaveis que serão usadas na verificação no banco
+    //variaveis que serão usadas na verificação no banco 
     $emailBanco = '';
     $senhaBanco = '';
 
