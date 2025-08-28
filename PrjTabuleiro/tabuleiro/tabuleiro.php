@@ -7,6 +7,8 @@
 </head>
 
 <body>
+    <?php include('../includes/verificacao_session_usu.php'); ?>
+    
     <h1>🎲 Jogo do Dado</h1>
     <p>Clique no botão para jogar o dado e mover o boneco.</p>
     <button onclick="jogarDado()">Jogar Dado</button>

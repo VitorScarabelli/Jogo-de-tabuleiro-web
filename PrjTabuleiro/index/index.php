@@ -21,7 +21,7 @@
 </div>
 
 <div class="main-buttons">
-  <a href="../tabuleiro//tabuleiro.php">
+  <a href="../tabuleiro/tabuleiro.php">
     <div class="btn-wrapper">
       <img src="assets/caderno.png" alt="JOGAR">
       <span> JOGAR</span>
