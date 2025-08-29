@@ -7,29 +7,38 @@
     <title>Login</title>
 </head>
 <body>
+    <header>
+        <div class="left">
+            <a href="../Index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/Back Button.svg" alt="" width="70px" height="70px"></img></a>
+            <a href="../Index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/Home Button.svg" alt="" width="70px" height="70px"></img></a>
+        </div>
+        <div class="right">
+            <a href="#"><img src="./KitComposiçãoLogin/svg/Botões/Music Button.png" alt="" width="70px" height="70px"></img></a>
+            <a href="#"><img src="./KitComposiçãoLogin/svg/Botões/Config Button.png" alt="" width="70px" height="70px"></img></a>
+        </div>
+    </header>
     <div class="container">
         <h1 class="titulo">Login</h1>
-
-
-        <form action="loginConsulta.php" method="get" class="formualario">
-            <p class="textinho">Seja muito bem vindo de volta!</p>
-
-            <input type="email" name="email" id="email" placeholder="Digite aqui o seu Email">
-            <br />
-
-            <input type="password" name="senha" id="senha" placeholder="Digite aqui a sua senha">
-            <br />
-
-            <button type="submit" class="botao">Entrar</button>
-            <a href="logoff.php" class="botao">Deslogar</a>
-            
+        <div class="quadrados">
+            <form method="get" class="formulario">
+                <label for="" class="email">Email:</label>
+                <div class="primeiraCaixaTexto">
+                    <input type="email" name="email" id="email" placeholder="@gmail.com">
+                </div>
+                <br />
+                <label for="" class="senha">Senha:</label>
+                <div class="caixaTexto">
+                    <input type="password" name="senha" id="senha" placeholder="password">
+                </div>
+                <br />
+                <div class="caixaBotao">
+                    <button type="submit" class="botao">CONFIRMAR</button>
+                </div>
+            </form>
             <div class="links">
-                <p class="textCad">Não tem cadastro ainda? <a href="#">Clique aqui</a></p>
-                <p class="textSenha">Esqueceu sua senha? <a href="#">Clique aqui</a></p>
+                <p class="textCadastro">Não possui uma conta ainda?</p> <a href="#">Criar uma</a>
             </div>
-        </form>
-
-
+        </div>
     </div>
 </body>
 </html>
