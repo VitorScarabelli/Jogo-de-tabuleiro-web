@@ -36,7 +36,7 @@
                 </div>
             </form>
             <div class="links">
-                <p class="textCadastro">Não possui uma conta ainda?</p> <a href="#">Criar uma</a>
+                <p class="textCadastro">Não possui uma conta ainda?</p> <a href="../cadusuario/cadastro.php">Criar uma</a>
             </div>
         </div>
     </div>
