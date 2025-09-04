@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
     <title>Login</title>
 </head>
 <body>
     <header>
         <div class="left">
-            <a href="../Index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/Back Button.svg" alt="" width="70px" height="70px"></img></a>
-            <a href="../Index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/Home Button.svg" alt="" width="70px" height="70px"></img></a>
+            <a href="../Index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/BackButton.svg" alt="" width="70px" height="70px"></img></a>
+            <a href="../Index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/HomeButton.svg" alt="" width="70px" height="70px"></img></a>
         </div>
         <div class="right">
-            <a href="#"><img src="./KitComposiçãoLogin/svg/Botões/Music Button.png" alt="" width="70px" height="70px"></img></a>
-            <a href="#"><img src="./KitComposiçãoLogin/svg/Botões/Config Button.png" alt="" width="70px" height="70px"></img></a>
+            <a href="#"><img src="./KitComposiçãoLogin/svg/Botões/MusicButton.svg" alt="" width="70px" height="70px"></img></a>
+            <a href="#"><img src="./KitComposiçãoLogin/svg/Botões/ConfigButton.svg" alt="" width="70px" height="70px"></img></a>
         </div>
     </header>
     <div class="container">
@@ -36,7 +36,7 @@
                 </div>
             </form>
             <div class="links">
-                <p class="textCadastro">Não possui uma conta ainda?</p> <a href="../cadusuario/cadastro.php">Criar uma</a>
+                <p class="textCadastro">Não possui uma conta ainda?</p> <a href="../cadastro/index/index.php">Criar uma</a>
             </div>
         </div>
     </div>
