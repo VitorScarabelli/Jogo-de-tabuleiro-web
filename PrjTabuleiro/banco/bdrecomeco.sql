@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 16/08/2025 às 04:37
+-- Tempo de geração: 01/09/2025 às 03:32
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -20,6 +20,31 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `bdrecomeco`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `tbevento`
+--
+
+CREATE TABLE `tbevento` (
+  `idEvento` int(11) NOT NULL,
+  `nomeEvento` varchar(50) NOT NULL,
+  `descricaoEvento` varchar(255) NOT NULL,
+  `modificadorEvento` varchar(120) NOT NULL,
+  `dificuldadeEvento` varchar(10) NOT NULL,
+  `impactoEvento` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Despejando dados para a tabela `tbevento`
+--
+
+INSERT INTO `tbevento` (`idEvento`, `nomeEvento`, `descricaoEvento`, `modificadorEvento`, `dificuldadeEvento`, `impactoEvento`) VALUES
+(1, 'Visita técnica', 'Sua sala saiu para um evento onde vocês vão aprender sobre coias diferentes do habitual', 'anda mais 2 casas', 'facil', 'bom'),
+(2, 'Falta de luz', 'Você esava no meio de uma sessão de estudos e a luz caiu completamente!', 'volte 2 casas', 'fácil', 'ruim'),
+(3, 'enchente', 'Acabou chovendo muito e sua casa acabou ficando alagada após uma enchente', 'perde 1 turno', 'medio', 'ruim'),
+(4, 'Promoção de materiais escolares', 'Você acabou se deparando com uma promoção de materiais escolares em um apapelaria e conseguiu comprar coisas novas para te ajudar a estudar!', 'avance 3 casas', 'facil', 'bom');
 
 -- --------------------------------------------------------
 
@@ -62,11 +87,18 @@ CREATE TABLE `tbusuario` (
 --
 
 INSERT INTO `tbusuario` (`idUsuario`, `nomeUsuario`, `emailUsuario`, `senhaUsuario`) VALUES
-(3, 'mateus', 'mateus@gmail.com', 'senhafoda123');
+(1, 'mateus', 'mateus@gmail.com', 'senhafoda123'),
+(2, 'vitor', 'vitor@gmail.com', '12345');
 
 --
 -- Índices para tabelas despejadas
 --
+
+--
+-- Índices de tabela `tbevento`
+--
+ALTER TABLE `tbevento`
+  ADD PRIMARY KEY (`idEvento`);
 
 --
 -- Índices de tabela `tbpersonagens`
@@ -85,6 +117,12 @@ ALTER TABLE `tbusuario`
 --
 
 --
+-- AUTO_INCREMENT de tabela `tbevento`
+--
+ALTER TABLE `tbevento`
+  MODIFY `idEvento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
 -- AUTO_INCREMENT de tabela `tbpersonagens`
 --
 ALTER TABLE `tbpersonagens`
@@ -94,7 +132,7 @@ ALTER TABLE `tbpersonagens`
 -- AUTO_INCREMENT de tabela `tbusuario`
 --
 ALTER TABLE `tbusuario`
-  MODIFY `idUsuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `idUsuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
