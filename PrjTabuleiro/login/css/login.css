@@ -16,14 +16,22 @@ body{
     margin: 0;
     font-family: 'FontText';
     color: #65574e;
+<<<<<<< HEAD
     background-image: url(../KitComposiçãoLogin/svg/Céu\ Tardio.svg);
+=======
+    background-image: url(../KitComposiçãoLogin/svg/CéuTardio.svg);
+>>>>>>> 9aecc831cc8fec0da1ad0424015809e87237437c
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 header{
     display: flex;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 1185px;
+>>>>>>> 9aecc831cc8fec0da1ad0424015809e87237437c
 }
 
 .right, .left{
@@ -36,11 +44,19 @@ header{
 }
 
 .container{
+<<<<<<< HEAD
    background-image: url(../KitComposiçãoLogin/svg/Livro\ Login.svg);
    width: 53%;
    height: 575px;
    background-size: cover;
    margin-left: 25%;
+=======
+   background-image: url(../KitComposiçãoLogin/svg/LivroLogin.svg);
+   width: 64%;
+   height: 575px;
+   background-size: cover;
+   margin-left: 20%;
+>>>>>>> 9aecc831cc8fec0da1ad0424015809e87237437c
    padding-top: 2%;
 }
 
@@ -74,7 +90,12 @@ header{
     padding: 2.2%;
     border-radius: 5px;
     margin-left: -2%;
+<<<<<<< HEAD
     background-image: url(../KitComposiçãoLogin/svg/Campo\ de\ Texto.svg);
+=======
+    background-image: url(../KitComposiçãoLogin/svg/CampodeTexto.svg);
+    font-family: 'FontText';
+>>>>>>> 9aecc831cc8fec0da1ad0424015809e87237437c
 }
 
 .primeiraCaixaTexto{
@@ -82,7 +103,11 @@ header{
     padding: 2.2%;
     border-radius: 5px;
     margin-left: -2%;
+<<<<<<< HEAD
     background-image: url(../KitComposiçãoLogin/svg/Campo\ de\ Texto.svg);
+=======
+    background-image: url(../KitComposiçãoLogin/svg/CampodeTexto.svg);
+>>>>>>> 9aecc831cc8fec0da1ad0424015809e87237437c
     margin-bottom: 8%;
 }
 
@@ -106,7 +131,11 @@ input:focus{
 .caixaBotao{
     width: 215px;
     height: 52px;
+<<<<<<< HEAD
     background-image: url(../KitComposiçãoLogin/png/Botões/Confirm\ Button.png);
+=======
+    background-image: url(../KitComposiçãoLogin/png/Botões/ConfirmButton.png);
+>>>>>>> 9aecc831cc8fec0da1ad0424015809e87237437c
     background-size: cover;
     margin-left: 6%;
 }

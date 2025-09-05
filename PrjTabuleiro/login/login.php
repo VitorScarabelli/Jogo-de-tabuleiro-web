@@ -13,8 +13,13 @@
             <a href="../Index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/HomeButton.svg" alt="" width="70px" height="70px"></img></a>
         </div>
         <div class="right">
+<<<<<<< HEAD
             <a href="#"><img src="../KitComposiçãoLogin/svg/Botões/MusicButton.svg" alt="" width="70px" height="70px"></img></a>
             <a href="#"><img src="../KitComposiçãoLogin/svg/Botões/ConfigButton.svg" alt="" width="70px" height="70px"></img></a>
+=======
+            <a href="#"><img src="./KitComposiçãoLogin/svg/Botões/MusicButton.svg" alt="" width="70px" height="70px"></img></a>
+            <a href="#"><img src="./KitComposiçãoLogin/svg/Botões/ConfigButton.svg" alt="" width="70px" height="70px"></img></a>
+>>>>>>> 9aecc831cc8fec0da1ad0424015809e87237437c
         </div>
     </header>
     <div class="container">
@@ -36,7 +41,11 @@
                 </div>
             </form>
             <div class="links">
+<<<<<<< HEAD
                 <p class="textCadastro">Não possui uma conta ainda?</p> <a href="#">Criar uma</a>
+=======
+                <p class="textCadastro">Não possui uma conta ainda?</p> <a href="../cadastro/index/index.php">Criar uma</a>
+>>>>>>> 9aecc831cc8fec0da1ad0424015809e87237437c
             </div>
         </div>
     </div>
