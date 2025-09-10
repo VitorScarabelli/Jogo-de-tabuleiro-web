@@ -2,25 +2,9 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Tabuleiro SVG</title>
-  <style>
-    body {
-      background: #222;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-    }
-
-    svg {
-      background-color: #333;
-      border: 2px solid white;
-      width: 90%;
-      height: auto;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Tabuleiro com Eventos Escolhidos</title>
+  <link rel="stylesheet" href="./tb.css">
 </head>
 
 <body>
