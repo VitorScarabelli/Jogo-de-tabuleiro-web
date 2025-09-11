@@ -21,7 +21,7 @@ body {
     background-image: url(../KitComposiçãoLogin/svg/CéuTardio.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: auto;
 }
 
 header {
@@ -43,7 +43,7 @@ header {
     background-image: url(../KitComposiçãoLogin/svg/LivroLogin.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 54%;
+    width: 64%;
     height: 36rem;
     background-size: cover;
     margin: 1rem auto;
