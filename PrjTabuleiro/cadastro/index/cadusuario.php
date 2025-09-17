@@ -1,5 +1,5 @@
 <?php
-    include('../banco/conexao.php');
+    include('../../banco/conexao.php');
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $nome = trim($_POST['nome'] ?? '');

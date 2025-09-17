@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php 
-        include_once("../banco/conexao.php"); 
+        include("../banco/conexao.php"); 
         $stmt = $pdo->query("SELECT * FROM tbevento");
     ?>
 

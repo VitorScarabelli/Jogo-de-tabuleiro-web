@@ -9,8 +9,8 @@
 <body>
     <img src="./KitComposiçãoLogin/svg/CéuTardio.svg" alt="" class="background">
     <div class="left">
-        <a href="../Index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/BackButton.svg" alt="" width="70px" height="70px"></img></a>
-        <a href="../Index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/HomeButton.svg" alt="" width="70px" height="70px"></img></a>
+        <a href="../index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/BackButton.svg" alt="" width="70px" height="70px"></img></a>
+        <a href="../index/index.php"><img src="./KitComposiçãoLogin/svg/Botões/HomeButton.svg" alt="" width="70px" height="70px"></img></a>
     </div>
     <div class="right">
         <a href="#"><img src="./KitComposiçãoLogin/svg/Botões/MusicButton.svg" alt="" width="70px" height="70px"></img></a>

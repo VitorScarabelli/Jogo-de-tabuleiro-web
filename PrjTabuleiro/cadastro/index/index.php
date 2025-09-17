@@ -14,11 +14,9 @@
 
    <!-- Botões do canto superior esquerdo -->
     <div class="top-left-buttons">
-        <div class="btn-voltar">
-            <img src="../KitComposiçãoCadastro/svg/Buttons/BackButton.svg" alt="Voltar" />
-        </div>
-        <div class="btn-home">
-            <img src="../KitComposiçãoCadastro/svg/Buttons/HomeButton.svg" alt="Home" />
+        <div class="btn-voltar">    
+            <a href="../../login/login.php"><img src="../KitComposiçãoCadastro/svg/Buttons/BackButton.svg" alt="" width="70px" height="70px"></img></a>
+            <a href="../../index/index.php"><img src="../KitComposiçãoCadastro/svg/Buttons/HomeButton.svg" alt="" width="70px" height="70px"></img></a>
         </div>
     </div>
 

@@ -12,7 +12,7 @@
 <img class="background" src="assets/fundo.png" alt="Fundo do jogo">
 
 <div class="top-buttons">
-  <!--'<img class="top-btn" src="assets/musica.png" alt="Top1"> -->
+  <img class="top-btn" src="assets/musica.png" alt="Top1">
   <a href="../configuracoes/"><img class="top-btn" src="assets/conf.png" alt="Top2"></a>
 </div>
 
