@@ -3,11 +3,11 @@ const pauseBtn = document.getElementById('btn-pausar');
 const btnParar = document.getElementById('btn-parar');
 
 if(sessionStorage.getItem('musica') === 'parada'){
-    audio.pause(); // garante que não toca
-    pauseBtn.disabled = true; // opcional: desativa botão
+    audio.pause(); 
+    pauseBtn.disabled = true; 
     pauseBtn.textContent = 'Música parada';
 } else {
-    // toca normalmente ao clicar pela primeira vez
+    
     function desmutar() {
         audio.muted = false;
         audio.play();
@@ -15,7 +15,7 @@ if(sessionStorage.getItem('musica') === 'parada'){
     }
     document.addEventListener('click', desmutar);
 
-    // botão pausar/tocar
+    // botão pausar - tocar
     pauseBtn.addEventListener('click', () => {
         if (!audio.paused) {
             audio.pause();
@@ -26,11 +26,12 @@ if(sessionStorage.getItem('musica') === 'parada'){
         }
     });
 
-    // botão "Parar música permanentemente"
+    // botão parar
     btnParar.addEventListener('click', () => {
         audio.pause();
-        sessionStorage.setItem('musica', 'parada'); // salva estado
-        pauseBtn.disabled = true; // desativa botão
+        sessionStorage.setItem('musica', 'parada'); 
+        pauseBtn.disabled = true
     });
 }
+
 
