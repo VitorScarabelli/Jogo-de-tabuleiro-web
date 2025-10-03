@@ -1,28 +1,29 @@
 @font-face {
     font-family: 'FontTitle';
-    src: url(../KitComposiçãoLogin/FontesUtilizadas/FonteTitulo/Quache-HeavyExExp_PERSONAL.ttf) format(truetype);
+    src: url(../KitComposiçãoLogin/FontesUtilizadas/FonteTitulo/Quache-HeavyExExp_PERSONAL.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FontText';
-    src: url(../KitComposiçãoLogin/FontesUtilizadas/FonteTextoNormal/zh-cn.ttf) format(truetype);
+    src: url('../KitComposiçãoLogin/FontesUtilizadas/FonteTextoNormal/zh-cn.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+html, body {
+    overflow: hidden;
+    height: 100%;
     margin: 0;
     font-family: 'FontText';
     color: #65574e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.background{
+.background {
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +33,7 @@ body {
     z-index: -1;
 }
 
-.left{
+.left {
     position: fixed;
     top: 20px;
     left: 20px;
@@ -40,7 +41,7 @@ body {
     gap: 5px;
 }
 
-.right{
+.right {
     position: fixed;
     top: 20px;
     right: 25px;
@@ -71,13 +72,13 @@ body {
     align-items: center;
 }
 
-.img-livro{
+.img-livro {
     width: 100%;
     height: 100%;
     display: block;
 }
 
-.titulo{
+.titulo {
     font-family: 'FontTitle';
     font-size: 2.5rem;
     background: radial-gradient(35.93% 154.2% at 50.14% 186.81%, #C9C0A9 0%, #65574E 100%);
@@ -111,7 +112,7 @@ input {
     padding-left: 5%;
 }
 
-input:focus{
+input:focus {
     border: none;
     outline: none;
 }
@@ -134,7 +135,7 @@ input:focus{
     background-size: cover;
 }
 
-.btn{
+.caixa-btn button {
     width: 100%;
     height: 100%;
     cursor: pointer;
@@ -142,9 +143,10 @@ input:focus{
     background-color: transparent;
     color: beige;
     font-size: larger;
+    font-family: 'FontText';
 }
 
-.links{
+.links {
     position: absolute;
     width: 15rem;
     top: 11rem;
